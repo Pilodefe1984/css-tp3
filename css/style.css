@@ -101,6 +101,42 @@ body {
 	text-align: center;
 }
 
+.iconos {
+	width: 125px;
+    height: 125px;
+    background: deepskyblue;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 53px;
+    color: white;
+    padding-top: 33px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
+}
+
+.iconos:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+
+.services {
+	background: #FED501;
+	
+}
+
+.support {
+	background: #FF9456;
+}
+
+.domain {
+	background: #FF5F3D;
+}
 
 
 .card {
@@ -143,6 +179,55 @@ hgroup h2 {
     margin-top: 100px;
 }
 
+.box-title {
+	display: inline-block;
+	width: 201px
+	
+}
+
+.box-title.second {
+	margin-left: 16px;
+}
+
+.picture {
+	width: 50px;
+    height: 50px;
+    border: 2px solid deepskyblue;
+    display: inline-block;
+    margin-left: 19px;
+    border-radius: 50%;
+    position: relative;
+    top: -27px;
+}
+
+.pic-icon {
+	position: absolute;
+    top: 9px;
+    left: 11px;
+    font-size: 27px;
+    color: deepskyblue;
+    
+}
+
+.upload {
+	left: 14px;
+}
+
+.love {
+	top: 11px;
+	left: 12px;
+}
+
+.color-feat {
+	left: 13px;
+}
+
+.clock {
+	left: 12px;
+}
+
+
+
 
 .floatleft {
 	float: left;
@@ -151,7 +236,7 @@ hgroup h2 {
 }
 
 .left {
-    margin-top: 60px;
+    margin-top: 62px;
 }
 
 
@@ -162,18 +247,26 @@ hgroup h2 {
 }
 
 .left h4, .right h4 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .lista {
-	margin-top: 140px;
+	margin-top: 75px;
 }
 
 ul li article h6 {
 	font-size: 12px;
 	color: gray;
 	margin-top: 10px;
+	margin-top: 18px;
+	margin-left: -87px;
+}
+
+.box-title.second h6 {
+	margin-left: 0px;
+	width: 308px;
 }
 
 .fondo-cards {
@@ -200,11 +293,12 @@ ul li article h6 {
 	display: inline-block;
     text-align: center;
     background-color: #fff;
-    width: 250px;
+    width: 255px;
     height: 400px;
     box-shadow: 0 0 1em #37332F;
-    margin-left: 45px;
-    margin-top: 40px;
+    margin: 0px 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 
@@ -217,17 +311,64 @@ ul li article h6 {
 
 .card-price h2 {
 	padding-top: 20px;
-	font-size: 16px;
+	font-size: 38px;
 	font-weight: 800;
+	font-family: Open Sans;
 }
 
-.card-price ul {
-	padding-top: 60px;
+.card-price__number {
+    position: relative;
+   
 }
 
-.card-price ul li {
+.dolar {
+	position: absolute;
+    left: 92px;
+    top: 27px;
+    font-weight: 800;
+}
+
+.card-price__cent {
+	position: absolute;
+	top: 23px;
+    left: 149px;
+    font-weight: 800;
+}
+
+.dolar.last {
+	position: absolute;
+    left: 82px;
+    top: 27px;
+    font-weight: 800;
+}
+
+.card-price__cent.last {
+	position: absolute;
+    top: 23px;
+    left: 160px;
+    font-weight: 800;
+}
+
+.mount {
+	color: gray;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.card-price table {
+	margin-top: 32px;
+	margin-left: 73px;
+}
+
+.card-price table tr td {
 	padding-top: 15px;
 	font-size: 10px;
+	text-align: left;
+}
+
+.number_pad {
+	    padding-left: 37px;
+	    color: #00AFF3;
 }
 
 .btn-plan {
