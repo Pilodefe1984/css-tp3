@@ -16,23 +16,25 @@ body {
 
 .nav-menu {
 	background-color: #FFFFFF;
-    height: 50px;
+    
+    
 }
 
 .container {
 	max-width: 1200px;
 	width: auto;
 	margin: auto;
+
 }
 
 .logo {
 	margin-left: 10px;
-	margin-top: 8px;
+	padding: 10px 0;
 }
 
 .menu {
-	display: inline-block;
-	margin-left: 70%;
+	float: right;
+	padding: 16px 16px;
 }
 
 .menu li {
@@ -177,6 +179,7 @@ hgroup h2 {
 	margin: auto;
     text-align: right;
     margin-top: 100px;
+
 }
 
 .box-title {
@@ -194,10 +197,15 @@ hgroup h2 {
     height: 50px;
     border: 2px solid deepskyblue;
     display: inline-block;
-    margin-left: 19px;
+    margin-left: -47px;
     border-radius: 50%;
     position: relative;
     top: -27px;
+    left: 51px;
+}
+
+.picture.two {
+	left: 12px;
 }
 
 .pic-icon {
@@ -231,12 +239,19 @@ hgroup h2 {
 
 .floatleft {
 	float: left;
-	width: 31.4%;
+	width: 31%;
 
 }
 
+
 .left {
     margin-top: 62px;
+}
+
+.floatleft img {
+	width: 80%;
+	margin: auto;
+
 }
 
 
@@ -293,7 +308,7 @@ ul li article h6 {
 	display: inline-block;
     text-align: center;
     background-color: #fff;
-    width: 255px;
+    width: 20%;
     height: 400px;
     box-shadow: 0 0 1em #37332F;
     margin: 0px 20px;
@@ -323,29 +338,29 @@ ul li article h6 {
 
 .dolar {
 	position: absolute;
-    left: 92px;
-    top: 27px;
+    left: 34%;
+    top: 42%;
     font-weight: 800;
 }
 
 .card-price__cent {
 	position: absolute;
-	top: 23px;
-    left: 149px;
+	top: 37%;
+    left: 61%;
     font-weight: 800;
 }
 
 .dolar.last {
 	position: absolute;
-    left: 82px;
-    top: 27px;
+    left: 29%;
+    top: 41%;
     font-weight: 800;
 }
 
 .card-price__cent.last {
 	position: absolute;
-    top: 23px;
-    left: 160px;
+    top: 36%;
+    left: 67%;
     font-weight: 800;
 }
 
@@ -438,4 +453,305 @@ footer {
 .number {
 	padding-left: 40px;
 	color: blue;
+}
+
+
+@media screen and (max-width: 975px) {
+
+	.header {
+		background-size: 1135px;
+    	background-repeat: no-repeat;
+	}
+
+	.menu {
+		float: none;
+    	margin: auto;
+    	width: 100px;
+    	text-align: center;
+    	padding: 0px;
+    	padding-bottom: 25px;
+    	font-size: 16px;
+	}
+
+	.titulo {
+		margin-left: 20px;
+	}
+
+	.busqueda {
+		margin-top: 115px;
+		width: 80%;
+	}
+
+	.caja-card {
+		margin-top: -137px;
+	}
+
+	ul li article h6 {
+		margin-left: -43px;
+        width: 120%;
+	}
+
+	.box-title.second h6 {
+		margin-left: 0px;
+        width: 120%;
+	}
+
+	.card {
+		width: 49%;
+		max-width: none;
+	}
+
+	.card-price {
+		width: 45%;
+		box-shadow: 0 0 5px #37332F;
+	}
+
+	.card-price h2 {
+		font-size: 65px;
+	}
+
+	.dolar {
+	   left: 36%;
+       top: 33%;
+       font-size: 20px;
+	}
+
+	.card-price__cent {
+		top: 30%;
+        left: 61%;
+        font-size: 20px;
+	}
+
+	.card-price__cent.last {
+		top: 30%;
+        left: 65%;
+        font-size: 20px;
+	}
+
+	.dolar.last {
+		left: 31%;
+        top: 33%;
+        font-size: 20px;
+
+	}
+
+	.card-price table {
+		margin-left: none;
+		margin: auto;
+		margin-top: 35px;
+	}
+
+
+	.card-price table tr td {
+		font-size: 14px;
+	}
+
+	.btn-plan {
+		    margin-top: 25px;
+		    font-size: 16px;
+		    padding: 8px 26%;
+	}
+
+	.fondo-cards {
+		margin-top: 28px;
+	}
+
+	.hcards h2 {
+		color:#262C43;
+		font-size: 49px;
+	}
+
+	h2.text {
+		font-size: 33px;
+		color: #AFB0BA;
+	}
+
+	.grillafoo h6 {
+		text-align: center;
+		color: #AFB0BA;	
+		font-size: 12px;	
+	}
+
+	.menufoo {
+		padding-left: 45%;
+        margin-top: 15px;
+        color: #AFB0BA;
+        font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+     .menu li {
+     	display: block;
+     	font-size: 13px;
+     	padding: 7px;
+
+     }
+
+     .caja-logo {
+     	margin: auto;
+        width: 170px;
+     }
+
+     .header {
+     	background: none;
+     }
+
+     .titulo {
+     	display: none;
+     }
+
+     .busqueda {
+     	margin-top: 0px;
+        width: 78%;
+        height: 79px;
+        margin-left: 1%;
+     }
+
+     .btn-search {
+     	height: 79px;
+     }
+
+     .caja-card {
+     	margin-top: -435px;
+     }
+
+     hgroup h2 {
+     	color: #233141;
+     	font-size: 44px;
+     }
+
+     hgroup p.subtitulo {
+     	font-size: 20px;
+     }
+
+     .floatleft {
+     	float: none;
+     }
+
+     .caja-bloque-iphone {
+     	text-align:left;
+     	width: 70%;
+     }
+
+     .box-title {
+     	width: 291%;
+     }
+
+     ul li article h6 {
+     	margin-left: 0px;
+     }
+
+     .picture {
+       top: -68px;
+       left: -14px;
+     }
+
+     .floatleft img {
+     	width: 150%;
+     	margin-left: 94%;
+     }
+
+     .box-title.second {
+     	margin-left: -44px;
+     }
+
+     .picture.two {
+     	left: -55px;
+        top: 36px;
+     }
+
+     hgroup h2.last {
+     	margin-top: 53px;
+     }
+
+     .hcards h3 {
+     	font-size: 16px;
+     }
+
+     .card-price {
+     	width: 40%;
+     	margin: 75px 4%;
+     }
+
+     .dolar {
+       left: 32%;
+       top: 32%;
+     }
+
+     .card-price__cent {
+     	top: 29%;
+        left: 63%;
+     }
+
+     .dolar.last {
+     	left: 25%;
+        top: 33%;
+     }
+
+     .card-price__cent.last {
+     	left: 70%;
+     }
+
+
+     @media screen and (max-width: 670px) {
+
+     	.card {
+     		display: block;
+     		margin: auto;
+     		margin-top: 20px;
+     	}
+
+     	.card-price {
+     		width: 38%;
+     	}
+
+     	.dolar {
+     		left: 28%;
+     	}
+
+     	.dolar.last {
+     		left: 22%;
+     	}
+
+     	.card-price__cent {
+     		left: 66%;
+     	}
+
+     	.card-price__cent.last {
+     		left: 73%;
+     	}
+     }
+
+     @media screen and (max-width: 580px) {
+         hgroup h2.last {
+         	margin-top: 0px;
+         }
+         .card-price {
+         	display: block;
+         	width: 93%;
+         }
+
+         .card-price h3 {
+         	font-size: 25px;
+         }
+
+         .dolar {
+         	left: 37%;
+         }
+
+         .card-price__cent {
+         	left: 60%;
+         }
+
+         .card-price__cent.last {
+         	left: 65%;
+         }
+
+         .dolar.last {
+         	left: 33%;
+         }
+     }
+
+     
 }
